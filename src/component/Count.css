@@ -1,0 +1,52 @@
+.count-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .count-display {
+    font-size: 3rem;
+    margin-bottom: 26px;
+  }
+  
+  /* .count-positive {
+    color: blue;
+  }
+  
+  .count-negative {
+    color: red;
+  }
+  
+  .count-neutral {
+    color: black;
+  } */
+  
+  .count-button {
+    background-color: white;
+    border: 2px solid;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+  
+  .count-button.decrement {
+    /* border-color: red; */
+    background-color:red;
+    color: rgb(246, 240, 240);
+  }
+  
+  .count-button.increment {
+    /* border-color: blue; */
+    background-color:rgb(0, 85, 255);
+    color: rgb(234, 234, 244);
+  }
+  
